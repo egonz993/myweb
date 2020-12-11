@@ -6,8 +6,23 @@
         <meta name="description" content="portfolio" />
         <meta name="author" content="Eduardo Gonzalez" />
         <title>E'Gonzalez - Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        
+
+
+        <!-- To support PC icons-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+
+        <!-- To support Android icons-->
+        <link rel="icon" sizes="192×192" href="assets/img/favicon.png">
+        <link rel="icon" sizes="128×128" href="assets/img/favicon.png">
+
+        <!-- To support new sizes apple icons-->
+        <link rel="apple-touch-icon" sizes="60×60" href="assets/img/favicon.png">
+        <link rel="apple-touch-icon" sizes="76×76" href="assets/img/favicon.png">
+        <link rel="apple-touch-icon" sizes="120×120" href="assets/img/favicon.png">
+        <link rel="apple-touch-icon" sizes="152×152" href="assets/img/favicon.png">
+        <link rel="apple-touch-icon" sizes="180×180" href="assets/img/favicon.png">
+
+
         <!-- Font Awesome icons (free version)-->
         <!-- <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>-->
         <script src="https://kit.fontawesome.com/65a2997860.js" crossorigin="anonymous"></script>
@@ -26,7 +41,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">E'Gonzalez</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,6 +56,7 @@
                 </ul>
             </div>
         </nav>
+
         <!-- Page Content-->
         <div class="container-fluid p-0">
 
@@ -172,40 +188,54 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
+
+                    <div class="subheading mb-3 mt-5"><b>Embedded Developer</b></div>
+                    <ul class="fa-ul mb-0">
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>C/C++ language solid knowledge</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Hardware development</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Data acquisition system</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Software and Hardware integration</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Solid Knowledge about communications protocols</li>
+                    </ul>
+                    <ul class="list-inline dev-icons mt-3 ml-3">
+                        <li class="list-inline-item"><i class="fas fa-microchip"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-sim-card"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-wifi"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bluetooth"></i></li>
+                    </ul>
+
+                    <div class="subheading mb-3 mt-5"><b>Mobile Developer</b></div>
+                    <ul class="fa-ul mb-0">
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Android Native Java Developer</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Google Play Store developer ID</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Huawei AppGallery developer ID</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span><i>Learning: </i>iOS Native Swift programming</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span><i>Learning: </i>React Native Framework</li>
+
+                    </ul>
+                    <ul class="list-inline dev-icons mt-3 ml-3">
+                        <li class="list-inline-item"><i class="fab fa-google-play"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-android"></i></li>
+                        <li class="list-inline-item"> | </i></li>
+                        <li class="list-inline-item"><i class="fab fa-apple"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-app-store-ios"></i></li>
+                    </ul>
+
+                    <div class="subheading mb-3 mt-5"><b>Front-End Developer</b></div>
+                    <ul class="fa-ul mb-0">
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Wordpress management system</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML, CSS and JavaScript solid knowledge</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Responsive design with Bootstrap framework</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Firebase integration for Cloud Storage and analytics</li>
+                    </ul>
+                    <ul class="list-inline dev-icons mt-3 ml-3">
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
+
                 </div>
             </section>
             <hr class="m-0" />
