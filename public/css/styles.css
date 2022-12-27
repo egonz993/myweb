@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  :root {
-  --primary: rgb(0, 0, 0);
+  --primary: rgb(0, 0, 30);
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
