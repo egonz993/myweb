@@ -3,6 +3,27 @@
     background: linear-gradient(180deg, rgba(200,200,200,1) 0%, rgba(255,255,255,1) 100%);
 }
 
-#portfolio{
-    background: rgb(200,200,200);
+#about {
+    background: #fff;
+}
+
+#skills {
+    background: #f0f0f0;
+}
+
+#experience {
+    background: #fff;
+}
+
+#education {
+    background: #f0f0f0;
+}
+
+#certifications {
+    background: #fff;
+}
+
+#portfolio {
+    background: rgb(0,255,222);
+    background: linear-gradient(180deg, rgba(200,200,200,1) 0%, rgba(255,255,255,1) 100%);
 }
